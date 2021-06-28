@@ -35,71 +35,58 @@
 ## 🛠️ Tecnologias/Ferramentas ultilizadas
 
 * [React](https://pt-br.reactjs.org/E)
-* [Next Auth](https://next-auth.js.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Styled Components](https://styled-components.com/)
+* [Firebase](https://firebase.google.com/?hl=pt)
 
-![ezgif com-optimize (2)](https://user-images.githubusercontent.com/71772559/109437018-7a479680-7a01-11eb-9f7b-23cd97c875e6.gif)
+## 👥 Visão do usuário
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71772559/123701540-5c1b6700-d838-11eb-9216-1b8da3e7270f.gif" />
+</p>
+
+&nbsp;
+
+## 🔨 Visão do Administrador da sala
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71772559/123701684-8bca6f00-d838-11eb-94cb-fa6ceac73f4a.gif" />
+</p>
+
+&nbsp;
+
+## ⛔ Modal de remoção
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71772559/123701901-d2b86480-d838-11eb-8158-2423b965502d.gif" />
+</p>
 
 &nbsp;
 
 ## 🖌️ Layouts usados nesse projeto
-* [Move.it 1.0 (Desenvolvido em aula)](https://www.figma.com/file/pZbJns12UgFmKhXKDPTli4/Move.it-1.0-(Copy))
-* [Move.it 2.0 (Deixado como desafio)](https://www.figma.com/file/v98FU24x8P7z0nguwTh3pU/Move.it-2.0-(Copy)?node-id=160%3A2761)
-
-&nbsp;
-
-## 🖥 Todas as páginas da aplicação
-
-![allpages](https://user-images.githubusercontent.com/71772559/110255830-7e7d3200-7f74-11eb-99c5-d5e060af60b2.png)
+* [Layout inicial no Figma](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate)
 
 &nbsp;
 
 ## ⚙️ Instalação
 ```
 # Abra um terminal e copie este repositório com o comando
-$ git clone https://github.com/GBDev13/moveit.git
+$ git clone https://github.com/GBDev13/perguntaai.git
 ```
 
 ```
 # Acesse a pasta da aplicação
-$ cd moveit
+$ cd perguntaai
 
 # Crie um arquivo .env.local e coloque as variaveis
 # de ambiente baseado no arquivo .env.example que
-# se encontra na pasta moveit
+# se encontra na pasta perguntaai
 
 # Instale as dependências
 $ yarn install
 
 # Inicie a aplicação
 $ yarn start
-
-
-
-## Como alterar o tempo do timer? (Está como 6 segundos para testes práticos)
-## Abra o arquivo src/contexts/CountdownContext.tsx
-## Lá você irá encontrar essas linhas:
-
-const [time, setTime] = useState(0.1 * 60)
-setTime(0.1 * 60);
-
-## Para retornar aos 25 minutos, apenas altere o 0.1 para 25
-
-## Também é necessário alterar o tempo da barra de progresso, para
-## fazer essa alteração, acesse o arquivo src/styles/components/ButtonStyles.tsx
-## Lá você irá encontrar essa linha:
-
-animation: roundtime calc(6 * 1s) linear forwards;
-
-## Para retornar aos 25 minutos, altere de 6 * 1s para 1500 * 1s
-
-
-
-# Deploy na Vercel (INFORMAÇÃO SUPER IMPORTANTE)
-# Para o sistema de compartilhamento no twitter funcionar
-# é necessário usar a versão do Node 12.x, que pode ser alterada nas
-# configurações do seu projeto
 ```
 
 &nbsp;
@@ -107,13 +94,13 @@ animation: roundtime calc(6 * 1s) linear forwards;
 ### 🔗 Link para o projeto online
 
 
-[MoveIt](https://moveit-eight-omega.vercel.app)
+[PerguntaAí](https://perguntaai-gbdev13.vercel.app/)
 
 &nbsp;
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo de [LICENÇA](https://github.com/GBDev13/moveit/blob/main/LICENSE) para detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo de [LICENÇA](https://github.com/GBDev13/perguntaai/blob/master/LICENSE) para detalhes.
 
 
 ---
