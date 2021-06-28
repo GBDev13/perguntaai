@@ -28,7 +28,7 @@ type RoomType = {
 export function MyRooms() {
   const history = useHistory();
   const [rooms, setRooms] = useState<RoomType[]>()
-  const { user, userLoading } = useAuth();
+  const { user} = useAuth();
   const [loading, setLoading] = useState(true)
 
   const { currentTheme } = useTheme();
