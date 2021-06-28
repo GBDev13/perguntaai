@@ -48,7 +48,7 @@ export function MyRooms() {
             })
           );
   
-          setRooms(parsedQuestions);
+          setRooms(parsedQuestions.reverse());
         });
       }
     } catch {
@@ -69,7 +69,7 @@ export function MyRooms() {
       <main className="content">
         <h3>Suas salas</h3>
         {loading ? <Spinner /> : 
-          rooms?.map(room => (
+          rooms?.reverse().map(room => (
             <RoomItem key={room.id} room={room}/>
           ))
         }
