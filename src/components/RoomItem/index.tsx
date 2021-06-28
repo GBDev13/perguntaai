@@ -1,7 +1,5 @@
-import { ReactNode } from 'react';
 import { useHistory } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { database } from '../../services/firebase';
 import { Button } from '../Button';
 
 import { Container } from './styles';
