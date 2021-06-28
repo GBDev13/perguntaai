@@ -9,7 +9,7 @@ const darkTheme = {
     answered: '#728082',
     gray100: '#3f4647',
     gray150: '#1a1e1f',
-    gray200: '#e2e2e2',
+    gray200: '#383e40',
     gray300: '#c4c4c4',
     gray400: '#a8a8b3',
     gray900: '#f5f5f5',
